@@ -98,7 +98,10 @@ function render (req, res) {
   }
 
   const context = {
-    title: 'Vue HN 2.0', // default title
+    title: '立邦涂料（漆）中国官方网站-为你刷新生活', // default title
+    author: 'ciel', // default author
+    keywords: '油漆,涂料,乳胶漆,立邦,立邦漆', // default keywords
+    description: '立邦涂料(NipponPaint)是世界最早的涂料公司，也是涂料,油漆，乳胶漆世界十大品牌之一.立邦漆官方网站提供立邦漆、立邦乳胶漆以及其他专业油漆（家装、建筑、汽车、工业、工程涂料）的具体信息.如果您对我们的产品感兴趣，欢迎访问我们的网站.', // default description
     url: req.url
   }
   renderer.renderToString(context, (err, html) => {

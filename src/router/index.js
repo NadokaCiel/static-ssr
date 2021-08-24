@@ -15,7 +15,7 @@ export function createRouter () {
     scrollBehavior: () => ({ y: 0 }),
     routes: [
       { path: '/', component: HomeView },
-      { path: '/product/:productType', component: ProductDetailView },
+      { path: '/product/:productId', component: ProductDetailView },
       { path: '/error404', component: Error404View },
       { path: '*', redirect: '/error404' }
     ]
