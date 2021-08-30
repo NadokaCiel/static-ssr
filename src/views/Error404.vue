@@ -1,6 +1,36 @@
 <template>
   <div class="error-404">
-    {{info}}
+      <header >
+        <div class="head">
+          <img class="head-logo" src="~public/logo-512.png" alt="logo">
+          <ul class="head-class pc">
+            <li class="pc">产品介绍</li>
+            <li class="pc">在线工具</li>
+            <li class="pc">服务详情</li>
+            <li class="pc">建筑材料</li>
+          </ul>
+          <div class="head-dis mobile"></div>
+          <div class="head-jump pc">
+            <a href="http://www.colorwayoflove.com.cn/">
+              <img class="head-logo" src="~public/logo-512.png" alt="logo">
+            </a>
+            <a href="http://www.colorwayoflove.com.cn/">
+              <img class="head-logo" src="~public/logo-512.png" alt="logo">
+            </a>
+            <a href="http://www.colorwayoflove.com.cn/">
+              <img class="head-logo" src="~public/logo-512.png" alt="logo">
+            </a>
+          </div>
+        </div>
+      </header>
+      
+      <div class="container">
+        <div class="row">
+          <!-- <div class="col-lg-12">123</div> -->
+          <div class="col-lg-6 ">123</div>
+          <div class="col-lg-6 ">123</div>
+        </div>
+      </div>
   </div>
 </template>
 
@@ -36,9 +66,5 @@ export default {
 </script>
 
 <style lang="scss">
-.error-404 {
-  text-align: center;
-  color: #aaa;
-  font-size: 64px;
-}
+  @import "../style/pageStyle/Error404.scss"
 </style>

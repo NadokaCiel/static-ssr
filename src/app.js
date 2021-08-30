@@ -5,6 +5,7 @@ import { createRouter } from './router'
 import { sync } from 'vuex-router-sync'
 import metaMixin from './util/meta'
 import * as filters from './util/filters'
+import './style/common/global.scss' // 引入去除标签默认样式文件
 
 // mixin for handling title & meta
 Vue.mixin(metaMixin)
