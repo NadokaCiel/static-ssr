@@ -26,9 +26,9 @@
       
       <div class="container">
         <div class="row">
-          <!-- <div class="col-lg-12">123</div> -->
-          <div class="col-lg-6 ">123</div>
-          <div class="col-lg-6 ">123</div>
+          <div class="col-lg-4 col-sm-6">1223</div>
+          <div class="col-lg-4 col-sm-6">123</div>
+          <div class="col-lg-4 col-sm-12">123</div>
         </div>
       </div>
   </div>

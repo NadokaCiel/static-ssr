@@ -1,5 +1,6 @@
 @import "./media.scss"; // 引入媒体查询配置
-@import "./grid.scss"; // 引入删格
+@import "./maxGrid.scss"; // 引入删格 大尺寸
+@import "./minGrid.scss"; // 引入删格 小尺寸
 * {
     padding: 0;
     margin: 0;
